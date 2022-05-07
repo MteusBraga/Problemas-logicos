@@ -1,7 +1,10 @@
-lista=[]
+a, b, c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+lista=[a,b,c]
 clone=[]
 for i in range(3):
-    lista.append(int(input()))
     clone.append(lista[i])
 lista.sort()
 for i in range(3):
